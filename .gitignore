@@ -54,8 +54,8 @@
 
 # OSX dir files
 .DS_Store
-data
+data/*
 __pycache__/
 outputs*
 oldlog
-checkpoint
+checkpoint/*

@@ -6,25 +6,30 @@
 
 ![overview](img/framework.png)
 
-
 ## Environments
 
 ### Creat Conda Environment
 
-conda create -n dbg python=3.10
+```
+conda create -n dbg python=3.8
 conda activate dbg
+```
 
 ### Install Package
 
+```
 pip install torch==1.13.0+cu116 torchvision==0.14.0+cu116 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu116
 pip install tensorflow==2.11.0
 pip install -r requirements.txt
+```
 
 ### Install [PointGroup](https://github.com/dvlab-research/PointGroup)
 
-pip install -r requirements
-cd lib/PB_lib
+```
+cd lib/pointgroup_ops
 python setup.py develop
+cd ../../
+```
 
 ### Install Segmentator
 
@@ -48,7 +53,6 @@ Further segmentator information can be found in [DKNet](https://github.com/W1zhe
 
 Download the **[ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)** and **[OpenSeg model](https://drive.google.com/file/d/1DgyH-1124Mo8p6IUJ-ikAiwVZDDfteak/view?usp=sharing)** and put them into the `checkpoint` folder.
 
-
 ## Dataset Preparation
 
 Follow the [scripts/feature_fusion/README.md](scripts/feature_fusion/README.md) to prepare the data.
@@ -66,20 +70,22 @@ python bfsgrouping.py
 ```
 
 (2) MGB
+
 ```
 python MGB.py
 ```
 
 (3) GAIM
+
 ```
-python GAIN.py
+python GAIM.py
 ```
 
 (4) SSP
+
 ```
 python SSP.py
 ```
-
 
 ## Citation
 

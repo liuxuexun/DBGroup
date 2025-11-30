@@ -42,8 +42,8 @@ except:
 
 from scipy import stats
 
-import unscene3d_instance_ap_tool.util as util
-import unscene3d_instance_ap_tool.util_3d as util_3d
+import utils.ap_tool.util as util
+import utils.ap_tool.util_3d as util_3d
 
 
 # ---------- Label info ---------- #

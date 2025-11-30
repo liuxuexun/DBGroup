@@ -14,7 +14,7 @@ except:
     print("pip install plyfile")
     sys.exit(-1)
 
-import unscene3d_instance_ap_tool.util as util
+import utils.ap_tool.util as util
 
 
 # matrix: 4x4 np array

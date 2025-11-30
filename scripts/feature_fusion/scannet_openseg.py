@@ -47,7 +47,7 @@ def get_args():
     parser.add_argument('--data_dir', default='../../data/', type=str, help='数据根目录')
     parser.add_argument('--split', type=str, default='train', help='split: "train"| "val"')
     parser.add_argument('--result_dir', default='../../data/logit/', type=str, help='结果保存路径 (.npy)')
-    parser.add_argument('--openseg_model', type=str, default='../../checkpoint/openseg_exported_clip', required=True, help='OpenSeg saved_model 路径')
+    parser.add_argument('--openseg_model', type=str, default='../../checkpoint/openseg_exported_clip', help='OpenSeg saved_model 路径')
     
     # --- 融合与采样参数 (源自 Code 2) ---
     parser.add_argument('--process_id_range', nargs='+', default=None, help='处理范围: start,end')

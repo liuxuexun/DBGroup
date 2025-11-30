@@ -80,7 +80,7 @@ def main():
     
     pc_path = './data/scannet_3d/train'
     opensc_logit_path = './data/logit'
-    result_dir = './data/coarseinslabel_nonms'
+    result_dir = './data/coarseinslabel'
     
     os.makedirs(result_dir, exist_ok=True)
     

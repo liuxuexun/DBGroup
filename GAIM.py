@@ -213,5 +213,5 @@ if __name__ == '__main__':
         
         matches[scene_name] = scene_dic
     labelset_name = 'scannet'
-    evaluate(matches, gt_path, save_path, dataset=labelset_name)
+    evaluate(matches, gt_path, save_path + '_ap_result.txt', dataset=labelset_name)
     

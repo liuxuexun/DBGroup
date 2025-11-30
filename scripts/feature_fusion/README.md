@@ -38,4 +38,4 @@ where:
 
 ## Suggestions & Troubleshooting
 
-- For using the OpenSeg model, you need to make sure you have an NVIDIA GPU with **>30G memory** or you can only use the cpu for inference.
+- For using the OpenSeg model, you'd better make sure you have an NVIDIA GPU with **>30G memory**.

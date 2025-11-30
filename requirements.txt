@@ -10,5 +10,6 @@ sharedarray
 protobuf==3.20.0
 numba
 natsort
+scikit-image
 git+https://github.com/openai/CLIP.git
 git+https://github.com/facebookresearch/segment-anything.git

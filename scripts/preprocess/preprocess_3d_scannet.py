@@ -165,7 +165,7 @@ def process_txt(filename):
     return lines
 
 
-in_path = '/data/share/scannet/scans/' # downloaded original scannet data
+in_path = '/data/share/scannet/scans/' # downloaded original scannet data, you should modify this.
 for split in ['train', 'val']:
     out_dir = '../../data/scannet_3d/{}'.format(split)
     scene_list = process_txt('../../dataset/scannet/scannetv2_{}.txt'.format(split))

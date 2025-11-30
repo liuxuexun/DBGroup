@@ -1,6 +1,6 @@
 '''IoU'''
 import numpy as np
-from openscene_iou_tool.label_constants import *
+from utils.iou_tool.label_constants import *
 
 UNKNOWN_ID = 255
 NO_FEATURE_ID = 256
